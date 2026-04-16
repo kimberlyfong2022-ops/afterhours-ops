@@ -48,12 +48,22 @@ export default function HomePage() {
             </a>
           </nav>
 
-          <a
-            href="#waitlist"
-            className="rounded-full border border-cyan-300/40 bg-cyan-400/10 px-4 py-2 text-sm font-medium text-cyan-200 shadow-[0_0_16px_rgba(34,211,238,0.18)] transition hover:bg-cyan-400/20"
-          >
-            Join Waitlist
-          </a>
+          <div className="flex items-center gap-3">
+            <a
+              href="YOUR-DEMO-LINK"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden rounded-full border border-cyan-300/40 bg-cyan-400/10 px-4 py-2 text-sm font-medium text-cyan-200 shadow-[0_0_16px_rgba(34,211,238,0.18)] transition hover:bg-cyan-400/20 md:inline-flex"
+            >
+              Try Demo
+            </a>
+            <a
+              href="#waitlist"
+              className="rounded-full border border-cyan-300/40 bg-cyan-400/10 px-4 py-2 text-sm font-medium text-cyan-200 shadow-[0_0_16px_rgba(34,211,238,0.18)] transition hover:bg-cyan-400/20"
+            >
+              Join Waitlist
+            </a>
+          </div>
         </div>
       </header>
 
@@ -86,6 +96,16 @@ export default function HomePage() {
               >
                 Join the Founder Waitlist
               </a>
+
+              <a
+                href="YOUR-DEMO-LINK"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-full border border-cyan-300/40 px-6 py-3 text-center text-sm font-semibold text-cyan-200 transition hover:bg-cyan-300/10 hover:text-white"
+              >
+                Try the Demo
+              </a>
+
               <a
                 href="#features"
                 className="rounded-full border border-white/15 px-6 py-3 text-center text-sm font-semibold text-white transition hover:border-cyan-300/40 hover:text-cyan-200"
@@ -93,6 +113,10 @@ export default function HomePage() {
                 Explore Features
               </a>
             </div>
+
+            <p className="mt-4 text-sm text-white/60">
+              See how AfterHours Ops interprets real hotel scenarios in seconds.
+            </p>
 
             <div className="mt-10 grid gap-4 text-sm text-white/75 sm:grid-cols-3">
               <div className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
@@ -159,6 +183,17 @@ export default function HomePage() {
                       right away.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6">
+                  <a
+                    href="YOUR-DEMO-LINK"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex rounded-full border border-cyan-300/40 px-5 py-3 text-sm font-semibold text-cyan-200 transition hover:bg-cyan-300/10 hover:text-white"
+                  >
+                    Launch Live Demo
+                  </a>
                 </div>
               </div>
             </div>
@@ -275,7 +310,9 @@ export default function HomePage() {
           <div className="rounded-[2rem] border border-cyan-300/25 bg-cyan-400/10 p-8 shadow-[0_0_35px_rgba(34,211,238,0.08)]">
             <p className="text-sm uppercase tracking-[0.24em] text-cyan-100/80">Founder pricing</p>
             <h4 className="mt-4 text-3xl font-semibold text-white">Full Product</h4>
-            <p className="mt-2 text-5xl font-semibold text-cyan-300">$36.66<span className="text-lg text-white/70">/month</span></p>
+            <p className="mt-2 text-5xl font-semibold text-cyan-300">
+              $36.66<span className="text-lg text-white/70">/month</span>
+            </p>
             <p className="mt-4 text-white/78">Limited founder pricing, locked in for life.</p>
             <ul className="mt-6 space-y-3 text-white/85">
               <li>• Real-time hotel operations support</li>
@@ -284,10 +321,10 @@ export default function HomePage() {
               <li>• Manager dashboard</li>
               <li>• Training insights</li>
             </ul>
-          <a
+            <a
               href="/founder"
-             className="mt-8 inline-flex rounded-full bg-cyan-300 px-5 py-3 text-sm font-semibold text-black transition hover:scale-[1.01]"
-           >
+              className="mt-8 inline-flex rounded-full bg-cyan-300 px-5 py-3 text-sm font-semibold text-black transition hover:scale-[1.01]"
+            >
               Reserve Founder Pricing
             </a>
           </div>
@@ -342,11 +379,41 @@ export default function HomePage() {
         <div className="rounded-[2rem] border border-cyan-300/20 bg-cyan-400/10 p-8 shadow-[0_0_40px_rgba(34,211,238,0.08)] lg:p-10">
           <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
             <div>
-              <p className="text-sm uppercase tracking-[0.3em] text-cyan-200/80">Join the waitlist</p>
-              <h3 className="mt-3 text-4xl font-semibold text-white">Get updates as AfterHours Ops grows.</h3>
+              <p className="text-sm uppercase tracking-[0.3em] text-cyan-200/80">
+                Join the waitlist
+              </p>
+              <h3 className="mt-3 text-4xl font-semibold text-white">
+                Get updates as AfterHours Ops grows.
+              </h3>
               <p className="mt-5 text-lg leading-8 text-white/80">
                 Join the founder waitlist to get product updates, early access opportunities,
                 and a front-row view as we build real support for hotel teams.
+              </p>
+
+              <p className="mt-4 text-sm text-white/70">
+                Want to see it in action first? Try the live demo and explore real hotel scenarios.
+              </p>
+
+              <div className="mt-6 flex flex-wrap gap-4">
+                <a
+                  href="https://night-shift-support.replit.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center rounded-full border border-cyan-300/40 px-5 py-3 text-sm font-semibold text-cyan-200 transition hover:bg-cyan-300/10 hover:text-white"
+                >
+                  Try the Demo
+                </a>
+
+                <a
+                  href="/founder"
+                  className="inline-flex items-center justify-center rounded-full bg-cyan-300 px-5 py-3 text-sm font-semibold text-black transition hover:scale-[1.01]"
+                >
+                  Reserve Founder Pricing
+                </a>
+              </div>
+
+              <p className="mt-3 text-xs text-white/50">
+                No login required. Opens in a new tab.
               </p>
             </div>
 
@@ -360,7 +427,8 @@ export default function HomePage() {
       <footer className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-sm text-white/55 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <p>© 2026 AfterHours Ops. Built for hotel operations.</p>
-          <div className="flex gap-6">
+
+          <div className="flex flex-wrap gap-6">
             <a href="#features" className="transition hover:text-cyan-300">
               Features
             </a>
@@ -368,14 +436,23 @@ export default function HomePage() {
               Manager View
             </a>
             <a
-  href="/founder"
-  className="mt-8 inline-flex rounded-full bg-cyan-300 px-5 py-3 text-sm font-semibold text-black transition hover:scale-[1.01]"
->
-  Reserve Founder Pricing
-</a>
+              href="/founder"
+              className="inline-flex rounded-full bg-cyan-300 px-5 py-3 text-sm font-semibold text-black transition hover:scale-[1.01]"
+            >
+              Reserve Founder Pricing
+            </a>
+            <a
+              href="YOUR-DEMO-LINK"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex rounded-full border border-cyan-300/40 px-5 py-3 text-sm font-semibold text-cyan-200 transition hover:bg-cyan-300/10 hover:text-white"
+            >
+              Try the Demo
+            </a>
           </div>
         </div>
       </footer>
     </main>
   );
+}
 }
