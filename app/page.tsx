@@ -274,7 +274,7 @@ export default function HomePage() {
           <div className="mt-10 rounded-[1.5rem] border border-cyan-300/20 bg-slate-950/80 p-4 shadow-[0_0_35px_rgba(34,211,238,0.12)]">
             <div className="overflow-hidden rounded-[1.25rem] border border-white/10 bg-black">
               <iframe
-                src="https://night-shift-support.replit.app/"
+                src="https://replit.com/join/ymgvztquru-kimberlyfong2022"
                 title="AfterHours Ops Demo"
                 className="h-[600px] w-full"
               />
@@ -283,7 +283,7 @@ export default function HomePage() {
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="https://night-shift-support.replit.app/"
+              href="https://replit.com/join/ymgvztquru-kimberlyfong2022"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-cyan-300 px-6 py-3 text-sm font-semibold text-black transition hover:scale-[1.01]"
