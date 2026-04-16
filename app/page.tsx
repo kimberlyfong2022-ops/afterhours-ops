@@ -266,24 +266,21 @@ export default function HomePage() {
               Experience AfterHours Ops in real time
             </h3>
             <p className="mt-5 text-lg leading-8 text-white/80">
-              Enter a real hotel scenario and see how the system responds with immediate
-              action, guest communication, and operational follow-up guidance.
+              Explore the live demo in a new tab to see how AfterHours Ops responds to
+              real hotel scenarios with immediate action, guest communication, and
+              operational follow-up guidance.
             </p>
           </div>
 
-          <div className="mt-10 rounded-[1.5rem] border border-cyan-300/20 bg-slate-950/80 p-4 shadow-[0_0_35px_rgba(34,211,238,0.12)]">
-            <div className="overflow-hidden rounded-[1.25rem] border border-white/10 bg-black">
-              <iframe
-                src="https://replit.com/join/ymgvztquru-kimberlyfong2022"
-                title="AfterHours Ops Demo"
-                className="h-[600px] w-full"
-              />
-            </div>
+          <div className="mt-10 rounded-[1.5rem] border border-cyan-300/20 bg-slate-950/80 p-10 text-center shadow-[0_0_35px_rgba(34,211,238,0.12)]">
+            <p className="text-lg text-white/80">
+              Open the live demo in a new tab to explore the experience.
+            </p>
           </div>
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="https://replit.com/join/ymgvztquru-kimberlyfong2022"
+              href="https://night-shift-support.replit.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-cyan-300 px-6 py-3 text-sm font-semibold text-black transition hover:scale-[1.01]"
@@ -304,7 +301,9 @@ export default function HomePage() {
       <section id="features" className="mx-auto max-w-7xl px-6 py-10 lg:px-8">
         <div className="max-w-2xl">
           <p className="text-sm uppercase tracking-[0.3em] text-cyan-300/75">Features</p>
-          <h3 className="mt-3 text-4xl font-semibold text-white">A support tool for agents and a visibility tool for leaders.</h3>
+          <h3 className="mt-3 text-4xl font-semibold text-white">
+            A support tool for agents and a visibility tool for leaders.
+          </h3>
         </div>
 
         <div className="mt-12">
@@ -312,7 +311,9 @@ export default function HomePage() {
             <div className="inline-flex rounded-full border border-cyan-200/30 bg-black/30 px-4 py-2 text-sm text-cyan-100">
               Full product vision
             </div>
-            <h4 className="mt-5 text-3xl font-semibold text-white">Built to go deeper than one moment.</h4>
+            <h4 className="mt-5 text-3xl font-semibold text-white">
+              Built to go deeper than one moment.
+            </h4>
             <p className="mt-4 text-white/78">
               AfterHours Ops supports real-time decisions, escalation guidance, manager visibility,
               and a stronger operational learning loop for the hotel teams using it.
@@ -332,7 +333,9 @@ export default function HomePage() {
       <section id="pricing" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
         <div className="max-w-2xl">
           <p className="text-sm uppercase tracking-[0.3em] text-cyan-300/75">Founder pricing</p>
-          <h3 className="mt-3 text-4xl font-semibold text-white">One clear offer for early supporters.</h3>
+          <h3 className="mt-3 text-4xl font-semibold text-white">
+            One clear offer for early supporters.
+          </h3>
         </div>
 
         <div className="mt-12 max-w-3xl">
@@ -365,7 +368,9 @@ export default function HomePage() {
           <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
             <div>
               <p className="text-sm uppercase tracking-[0.3em] text-cyan-300/75">Manager view</p>
-              <h3 className="mt-3 text-4xl font-semibold text-white">This is not only an agent tool.</h3>
+              <h3 className="mt-3 text-4xl font-semibold text-white">
+                This is not only an agent tool.
+              </h3>
               <p className="mt-5 text-lg leading-8 text-white/70">
                 AfterHours Ops helps create a space where teams can ask questions, surface
                 uncertainty, and get support in real time. That matters for performance,
@@ -462,4 +467,3 @@ export default function HomePage() {
     </main>
   );
 }
-
