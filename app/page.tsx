@@ -40,6 +40,9 @@ export default function HomePage() {
             <a href="#how-it-works" className="transition hover:text-cyan-300">
               How It Works
             </a>
+            <a href="#demo" className="transition hover:text-cyan-300">
+              Demo
+            </a>
             <a href="#manager-view" className="transition hover:text-cyan-300">
               Manager View
             </a>
@@ -49,14 +52,6 @@ export default function HomePage() {
           </nav>
 
           <div className="flex items-center gap-3">
-            <a
-              href="https://night-shift-support.replit.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hidden rounded-full border border-cyan-300/40 bg-cyan-400/10 px-4 py-2 text-sm font-medium text-cyan-200 shadow-[0_0_16px_rgba(34,211,238,0.18)] transition hover:bg-cyan-400/20 md:inline-flex"
-            >
-              Try Demo
-            </a>
             <a
               href="#waitlist"
               className="rounded-full border border-cyan-300/40 bg-cyan-400/10 px-4 py-2 text-sm font-medium text-cyan-200 shadow-[0_0_16px_rgba(34,211,238,0.18)] transition hover:bg-cyan-400/20"
@@ -98,15 +93,6 @@ export default function HomePage() {
               </a>
 
               <a
-                href="https://night-shift-support.replit.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-full border border-cyan-300/40 px-6 py-3 text-center text-sm font-semibold text-cyan-200 transition hover:bg-cyan-300/10 hover:text-white"
-              >
-                Try the Demo
-              </a>
-
-              <a
                 href="#features"
                 className="rounded-full border border-white/15 px-6 py-3 text-center text-sm font-semibold text-white transition hover:border-cyan-300/40 hover:text-cyan-200"
               >
@@ -115,7 +101,7 @@ export default function HomePage() {
             </div>
 
             <p className="mt-4 text-sm text-white/60">
-              See how AfterHours Ops interprets real hotel scenarios in seconds.
+              Built to support real hotel scenarios in seconds.
             </p>
 
             <div className="mt-10 grid gap-4 text-sm text-white/75 sm:grid-cols-3">
@@ -187,12 +173,10 @@ export default function HomePage() {
 
                 <div className="mt-6">
                   <a
-                    href="https://night-shift-support.replit.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="#demo"
                     className="inline-flex rounded-full border border-cyan-300/40 px-5 py-3 text-sm font-semibold text-cyan-200 transition hover:bg-cyan-300/10 hover:text-white"
                   >
-                    Launch Live Demo
+                    View Live Demo
                   </a>
                 </div>
               </div>
@@ -268,6 +252,51 @@ export default function HomePage() {
               Record what teams ask, where they hesitate, and where managers can strengthen
               training and clarity.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="demo" className="mx-auto max-w-7xl px-6 py-10 lg:px-8">
+        <div className="rounded-[2rem] border border-cyan-300/20 bg-cyan-400/10 p-8 shadow-[0_0_40px_rgba(34,211,238,0.08)] lg:p-10">
+          <div className="max-w-2xl">
+            <p className="text-sm uppercase tracking-[0.3em] text-cyan-200/80">
+              Live demo
+            </p>
+            <h3 className="mt-3 text-4xl font-semibold text-white">
+              Experience AfterHours Ops in real time
+            </h3>
+            <p className="mt-5 text-lg leading-8 text-white/80">
+              Enter a real hotel scenario and see how the system responds with immediate
+              action, guest communication, and operational follow-up guidance.
+            </p>
+          </div>
+
+          <div className="mt-10 rounded-[1.5rem] border border-cyan-300/20 bg-slate-950/80 p-4 shadow-[0_0_35px_rgba(34,211,238,0.12)]">
+            <div className="overflow-hidden rounded-[1.25rem] border border-white/10 bg-black">
+              <iframe
+                src="https://night-shift-support.replit.app/"
+                title="AfterHours Ops Demo"
+                className="h-[600px] w-full"
+              />
+            </div>
+          </div>
+
+          <div className="mt-8 flex flex-wrap gap-4">
+            <a
+              href="https://night-shift-support.replit.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full bg-cyan-300 px-6 py-3 text-sm font-semibold text-black transition hover:scale-[1.01]"
+            >
+              Open Full Demo
+            </a>
+
+            <a
+              href="#waitlist"
+              className="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-white transition hover:border-cyan-300/40 hover:text-cyan-200"
+            >
+              Join the Waitlist
+            </a>
           </div>
         </div>
       </section>
@@ -390,20 +419,7 @@ export default function HomePage() {
                 and a front-row view as we build real support for hotel teams.
               </p>
 
-              <p className="mt-4 text-sm text-white/70">
-                Want to see it in action first? Try the live demo and explore real hotel scenarios.
-              </p>
-
               <div className="mt-6 flex flex-wrap gap-4">
-                <a
-                  href="https://night-shift-support.replit.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center rounded-full border border-cyan-300/40 px-5 py-3 text-sm font-semibold text-cyan-200 transition hover:bg-cyan-300/10 hover:text-white"
-                >
-                  Try the Demo
-                </a>
-
                 <a
                   href="/founder"
                   className="inline-flex items-center justify-center rounded-full bg-cyan-300 px-5 py-3 text-sm font-semibold text-black transition hover:scale-[1.01]"
@@ -411,10 +427,6 @@ export default function HomePage() {
                   Reserve Founder Pricing
                 </a>
               </div>
-
-              <p className="mt-3 text-xs text-white/50">
-                No login required. Opens in a new tab.
-              </p>
             </div>
 
             <div className="rounded-[1.75rem] border border-white/10 bg-black/35 p-6 backdrop-blur-sm">
@@ -432,6 +444,9 @@ export default function HomePage() {
             <a href="#features" className="transition hover:text-cyan-300">
               Features
             </a>
+            <a href="#demo" className="transition hover:text-cyan-300">
+              Demo
+            </a>
             <a href="#manager-view" className="transition hover:text-cyan-300">
               Manager View
             </a>
@@ -440,14 +455,6 @@ export default function HomePage() {
               className="inline-flex rounded-full bg-cyan-300 px-5 py-3 text-sm font-semibold text-black transition hover:scale-[1.01]"
             >
               Reserve Founder Pricing
-            </a>
-            <a
-              href="https://night-shift-support.replit.app/
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex rounded-full border border-cyan-300/40 px-5 py-3 text-sm font-semibold text-cyan-200 transition hover:bg-cyan-300/10 hover:text-white"
-            >
-              Try the Demo
             </a>
           </div>
         </div>
