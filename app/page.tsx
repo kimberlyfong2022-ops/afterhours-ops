@@ -78,10 +78,10 @@ export default function HomePage() {
             </h2>
 
             <p className="mt-7 max-w-2xl text-lg leading-8 text-white/75">
-              AfterHours Ops is an AI-powered hotel operations assistant designed to
-              support real-time decision making, reinforce training, guide next
-              steps, and help teams move with more confidence when leadership is not
-              right beside them.
+              Your hotel is switching to cloud-based technology. AfterHours Ops
+              gives leaders an opportunity to instantly support the people behind
+              the screen with real-time operational guidance, escalation support,
+              and clearer next steps when leadership steps away.
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -107,15 +107,23 @@ export default function HomePage() {
             <div className="mt-10 grid gap-4 text-sm text-white/75 sm:grid-cols-3">
               <div className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
                 <p className="text-2xl font-semibold text-cyan-300">24/7</p>
-                <p className="mt-1">Operational guidance when the desk needs answers fast.</p>
+                <p className="mt-1">
+                  Operational guidance when the desk needs answers fast.
+                </p>
               </div>
               <div className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
                 <p className="text-2xl font-semibold text-cyan-300">3 Layers</p>
-                <p className="mt-1">SOP guidance, real-world resolution ideas, and escalation support.</p>
+                <p className="mt-1">
+                  SOP guidance, real-world resolution ideas, and escalation support.
+                </p>
               </div>
               <div className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
-                <p className="text-2xl font-semibold text-cyan-300">Manager Data</p>
-                <p className="mt-1">Tracks questions, uncertainty, and training opportunities.</p>
+                <p className="text-2xl font-semibold text-cyan-300">
+                  Manager Data
+                </p>
+                <p className="mt-1">
+                  Tracks questions, uncertainty, and training opportunities.
+                </p>
               </div>
             </div>
           </div>
@@ -131,7 +139,9 @@ export default function HomePage() {
                     </div>
                     <div>
                       <p className="text-sm text-white/60">AfterHours Ops</p>
-                      <p className="text-base font-medium text-white">What’s going on?</p>
+                      <p className="text-base font-medium text-white">
+                        What’s going on?
+                      </p>
                     </div>
                   </div>
                   <span className="rounded-full border border-emerald-400/30 bg-emerald-400/10 px-3 py-1 text-xs text-emerald-300">
@@ -141,32 +151,38 @@ export default function HomePage() {
 
                 <div className="space-y-4 text-sm leading-7">
                   <div className="rounded-2xl border border-white/10 bg-white/5 p-4 text-white/80">
-                    Guest room AC failed at 1:47 AM. No clean comparable room is ready.
-                    Guest is upset and asking what we can do now.
+                    Guest room AC failed at 1:47 AM. No clean comparable room is
+                    ready. Guest is upset and asking what we can do now.
                   </div>
 
                   <div className="rounded-2xl border border-cyan-300/20 bg-cyan-400/10 p-4 text-cyan-100">
-                    <p className="font-semibold text-cyan-200">Layer 1 · Immediate next steps</p>
+                    <p className="font-semibold text-cyan-200">
+                      Layer 1 · Immediate next steps
+                    </p>
                     <p className="mt-2 text-white/85">
-                      Verify alternate room options, offer approved recovery based on your
-                      property guidelines, document the incident, and prepare the correct
-                      follow-up communication.
+                      Verify alternate room options, offer approved recovery based
+                      on your property guidelines, document the incident, and
+                      prepare the correct follow-up communication.
                     </p>
                   </div>
 
                   <div className="rounded-2xl border border-white/10 bg-white/5 p-4 text-white/80">
-                    <p className="font-semibold text-cyan-200">Layer 2 · Real-world resolution support</p>
+                    <p className="font-semibold text-cyan-200">
+                      Layer 2 · Real-world resolution support
+                    </p>
                     <p className="mt-2">
-                      Surface prior resolutions and manager-backed suggestions when standard
-                      steps do not solve the issue.
+                      Surface prior resolutions and manager-backed suggestions when
+                      standard steps do not solve the issue.
                     </p>
                   </div>
 
                   <div className="rounded-2xl border border-white/10 bg-white/5 p-4 text-white/80">
-                    <p className="font-semibold text-cyan-200">Layer 3 · Escalation and communication</p>
+                    <p className="font-semibold text-cyan-200">
+                      Layer 3 · Escalation and communication
+                    </p>
                     <p className="mt-2">
-                      Identify who needs to know and generate the message the agent can use
-                      right away.
+                      Identify who needs to know and generate the message the agent
+                      can use right away.
                     </p>
                   </div>
                 </div>
@@ -189,68 +205,145 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-6 py-14 lg:px-8">
           <div className="grid gap-6 md:grid-cols-3">
             <div className="rounded-3xl border border-white/10 bg-black/30 p-6">
-              <p className="text-sm uppercase tracking-[0.28em] text-cyan-300/75">Real-time support</p>
-              <h3 className="mt-3 text-2xl font-semibold text-white">Not just answers. Action.</h3>
+              <p className="text-sm uppercase tracking-[0.28em] text-cyan-300/75">
+                Real-time support
+              </p>
+              <h3 className="mt-3 text-2xl font-semibold text-white">
+                Not just answers. Action.
+              </h3>
               <p className="mt-3 leading-7 text-white/70">
-                AfterHours Ops does not just restate policy. It guides the next move and
-                helps the team execute with more clarity.
+                AfterHours Ops does not just restate policy. It guides the next
+                move and helps the team execute with more clarity.
               </p>
             </div>
+
             <div className="rounded-3xl border border-white/10 bg-black/30 p-6">
-              <p className="text-sm uppercase tracking-[0.28em] text-cyan-300/75">Training reinforcement</p>
-              <h3 className="mt-3 text-2xl font-semibold text-white">Support people while they work.</h3>
+              <p className="text-sm uppercase tracking-[0.28em] text-cyan-300/75">
+                Training reinforcement
+              </p>
+              <h3 className="mt-3 text-2xl font-semibold text-white">
+                Support people while they work.
+              </h3>
               <p className="mt-3 leading-7 text-white/70">
-                Teams learn faster when support fits naturally into the moment they need it,
-                especially overnight.
+                Teams learn faster when support fits naturally into the moment
+                they need it, especially overnight.
               </p>
             </div>
+
             <div className="rounded-3xl border border-white/10 bg-black/30 p-6">
-              <p className="text-sm uppercase tracking-[0.28em] text-cyan-300/75">Leadership visibility</p>
-              <h3 className="mt-3 text-2xl font-semibold text-white">Give managers a clearer view.</h3>
+              <p className="text-sm uppercase tracking-[0.28em] text-cyan-300/75">
+                Leadership visibility
+              </p>
+              <h3 className="mt-3 text-2xl font-semibold text-white">
+                Give managers a clearer view.
+              </h3>
               <p className="mt-3 leading-7 text-white/70">
-                Track uncertainty, recurring questions, and operational friction points so
-                leaders can coach with real insight.
+                Track uncertainty, recurring questions, and operational friction
+                points so leaders can coach with real insight.
               </p>
             </div>
           </div>
         </div>
       </section>
 
+      <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+        <div className="rounded-[2rem] border border-cyan-300/20 bg-cyan-300/5 p-8 lg:p-12">
+          <p className="text-sm font-semibold uppercase tracking-[0.25em] text-cyan-300">
+            Modern hotel operations
+          </p>
+
+          <h3 className="mt-4 max-w-4xl text-3xl font-semibold tracking-tight text-white lg:text-5xl">
+            The industry is moving to the cloud. Now your operational support
+            should too.
+          </h3>
+
+          <p className="mt-6 max-w-3xl text-base leading-8 text-white/70 lg:text-lg">
+            Hotels are investing in faster systems, real-time visibility, and
+            cloud-based operations. Your PMS is evolving. Your reporting is
+            evolving. Your guest communication is evolving.
+          </p>
+
+          <p className="mt-4 max-w-3xl text-base leading-8 text-white/70 lg:text-lg">
+            AfterHours Ops creates an opportunity to instantly support the people
+            behind the screen with real-time decision support, department
+            communication guidance, and after-hours operational coverage without
+            adding another complicated workflow.
+          </p>
+
+          <p className="mt-4 max-w-3xl text-base font-medium leading-8 text-cyan-300 lg:text-lg">
+            Healthy teams create healthier service.
+          </p>
+
+          <div className="mt-8 flex flex-wrap gap-4">
+            <a
+              href="/founder"
+              className="inline-flex items-center justify-center rounded-full bg-cyan-300 px-5 py-3 text-sm font-semibold text-black transition hover:scale-[1.01]"
+            >
+              Join Founder Access
+            </a>
+
+            <a
+              href="#demo"
+              className="inline-flex items-center justify-center rounded-full border border-white/15 px-5 py-3 text-sm font-semibold text-white transition hover:border-cyan-300 hover:text-cyan-300"
+            >
+              View Demo
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section id="how-it-works" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
         <div className="max-w-2xl">
-          <p className="text-sm uppercase tracking-[0.3em] text-cyan-300/75">How it works</p>
-          <h3 className="mt-3 text-4xl font-semibold text-white">Built around how hotel teams actually work.</h3>
+          <p className="text-sm uppercase tracking-[0.3em] text-cyan-300/75">
+            How it works
+          </p>
+          <h3 className="mt-3 text-4xl font-semibold text-white">
+            Built around how hotel teams actually work.
+          </h3>
           <p className="mt-5 text-lg leading-8 text-white/70">
-            Powerful tools only matter if they fit naturally into operations. AfterHours
-            Ops is designed to support hesitation moments, surface guidance quickly, and
-            keep the operation moving.
+            Powerful tools only matter if they fit naturally into operations.
+            AfterHours Ops is designed to support hesitation moments, surface
+            guidance quickly, and keep the operation moving.
           </p>
         </div>
 
         <div className="mt-12 grid gap-6 lg:grid-cols-3">
           <div className="rounded-3xl border border-cyan-300/15 bg-cyan-400/5 p-7">
-            <div className="text-sm font-semibold uppercase tracking-[0.24em] text-cyan-300">01</div>
-            <h4 className="mt-4 text-2xl font-semibold text-white">Ask what is happening</h4>
+            <div className="text-sm font-semibold uppercase tracking-[0.24em] text-cyan-300">
+              01
+            </div>
+            <h4 className="mt-4 text-2xl font-semibold text-white">
+              Ask what is happening
+            </h4>
             <p className="mt-3 leading-7 text-white/70">
-              Agents enter the situation in a quick, natural way without leaving their flow.
+              Agents enter the situation in a quick, natural way without leaving
+              their flow.
             </p>
           </div>
 
           <div className="rounded-3xl border border-cyan-300/15 bg-cyan-400/5 p-7">
-            <div className="text-sm font-semibold uppercase tracking-[0.24em] text-cyan-300">02</div>
-            <h4 className="mt-4 text-2xl font-semibold text-white">Get the best next step</h4>
+            <div className="text-sm font-semibold uppercase tracking-[0.24em] text-cyan-300">
+              02
+            </div>
+            <h4 className="mt-4 text-2xl font-semibold text-white">
+              Get the best next step
+            </h4>
             <p className="mt-3 leading-7 text-white/70">
-              Pull from SOPs, standards, manager notes, and past resolutions to guide the
-              next action.
+              Pull from SOPs, standards, manager notes, and past resolutions to
+              guide the next action.
             </p>
           </div>
 
           <div className="rounded-3xl border border-cyan-300/15 bg-cyan-400/5 p-7">
-            <div className="text-sm font-semibold uppercase tracking-[0.24em] text-cyan-300">03</div>
-            <h4 className="mt-4 text-2xl font-semibold text-white">Capture insight for leadership</h4>
+            <div className="text-sm font-semibold uppercase tracking-[0.24em] text-cyan-300">
+              03
+            </div>
+            <h4 className="mt-4 text-2xl font-semibold text-white">
+              Capture insight for leadership
+            </h4>
             <p className="mt-3 leading-7 text-white/70">
-              Record what teams ask, where they hesitate, and where managers can strengthen
-              training and clarity.
+              Record what teams ask, where they hesitate, and where managers can
+              strengthen training and clarity.
             </p>
           </div>
         </div>
@@ -266,9 +359,9 @@ export default function HomePage() {
               Experience AfterHours Ops in real time
             </h3>
             <p className="mt-5 text-lg leading-8 text-white/80">
-              Explore the live demo in a new tab to see how AfterHours Ops responds to
-              real hotel scenarios with immediate action, guest communication, and
-              operational follow-up guidance.
+              Explore the live demo in a new tab to see how AfterHours Ops
+              responds to real hotel scenarios with immediate action, guest
+              communication, and operational follow-up guidance.
             </p>
           </div>
 
@@ -300,7 +393,9 @@ export default function HomePage() {
 
       <section id="features" className="mx-auto max-w-7xl px-6 py-10 lg:px-8">
         <div className="max-w-2xl">
-          <p className="text-sm uppercase tracking-[0.3em] text-cyan-300/75">Features</p>
+          <p className="text-sm uppercase tracking-[0.3em] text-cyan-300/75">
+            Features
+          </p>
           <h3 className="mt-3 text-4xl font-semibold text-white">
             A support tool for agents and a visibility tool for leaders.
           </h3>
@@ -315,8 +410,9 @@ export default function HomePage() {
               Built to go deeper than one moment.
             </h4>
             <p className="mt-4 text-white/78">
-              AfterHours Ops supports real-time decisions, escalation guidance, manager visibility,
-              and a stronger operational learning loop for the hotel teams using it.
+              AfterHours Ops supports real-time decisions, escalation guidance,
+              manager visibility, and a stronger operational learning loop for
+              the hotel teams using it.
             </p>
             <ul className="mt-6 space-y-3 text-white/85">
               <li>• SOP and knowledge upload support</li>
@@ -324,7 +420,9 @@ export default function HomePage() {
               <li>• Manager dashboard and analytics visibility</li>
               <li>• Resolution learning from recurring situations</li>
               <li>• SOP update alerts and training reinforcement</li>
-              <li>• Question tracking to surface where teams need support most</li>
+              <li>
+                • Question tracking to surface where teams need support most
+              </li>
             </ul>
           </div>
         </div>
@@ -332,7 +430,9 @@ export default function HomePage() {
 
       <section id="pricing" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
         <div className="max-w-2xl">
-          <p className="text-sm uppercase tracking-[0.3em] text-cyan-300/75">Founder pricing</p>
+          <p className="text-sm uppercase tracking-[0.3em] text-cyan-300/75">
+            Founder pricing
+          </p>
           <h3 className="mt-3 text-4xl font-semibold text-white">
             One clear offer for early supporters.
           </h3>
@@ -340,12 +440,18 @@ export default function HomePage() {
 
         <div className="mt-12 max-w-3xl">
           <div className="rounded-[2rem] border border-cyan-300/25 bg-cyan-400/10 p-8 shadow-[0_0_35px_rgba(34,211,238,0.08)]">
-            <p className="text-sm uppercase tracking-[0.24em] text-cyan-100/80">Founder pricing</p>
-            <h4 className="mt-4 text-3xl font-semibold text-white">Full Product</h4>
+            <p className="text-sm uppercase tracking-[0.24em] text-cyan-100/80">
+              Founder pricing
+            </p>
+            <h4 className="mt-4 text-3xl font-semibold text-white">
+              Full Product
+            </h4>
             <p className="mt-2 text-5xl font-semibold text-cyan-300">
               $36.66<span className="text-lg text-white/70">/month</span>
             </p>
-            <p className="mt-4 text-white/78">Limited founder pricing, locked in for life.</p>
+            <p className="mt-4 text-white/78">
+              Limited founder pricing, locked in for life.
+            </p>
             <ul className="mt-6 space-y-3 text-white/85">
               <li>• Real-time hotel operations support</li>
               <li>• Escalation support</li>
@@ -367,41 +473,57 @@ export default function HomePage() {
         <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8 lg:p-10">
           <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
             <div>
-              <p className="text-sm uppercase tracking-[0.3em] text-cyan-300/75">Manager view</p>
+              <p className="text-sm uppercase tracking-[0.3em] text-cyan-300/75">
+                Manager view
+              </p>
               <h3 className="mt-3 text-4xl font-semibold text-white">
                 This is not only an agent tool.
               </h3>
               <p className="mt-5 text-lg leading-8 text-white/70">
-                AfterHours Ops helps create a space where teams can ask questions, surface
-                uncertainty, and get support in real time. That matters for performance,
-                coaching, and culture.
+                AfterHours Ops helps create a space where teams can ask questions,
+                surface uncertainty, and get support in real time. That matters
+                for performance, coaching, and culture.
               </p>
             </div>
 
             <div className="grid gap-4 sm:grid-cols-2">
               <div className="rounded-3xl border border-white/10 bg-black/25 p-5">
-                <h4 className="text-xl font-semibold text-white">Question tracking</h4>
+                <h4 className="text-xl font-semibold text-white">
+                  Question tracking
+                </h4>
                 <p className="mt-2 text-white/68">
-                  Capture the questions agents ask most so leaders can see what support is
-                  needed repeatedly.
+                  Capture the questions agents ask most so leaders can see what
+                  support is needed repeatedly.
                 </p>
               </div>
+
               <div className="rounded-3xl border border-white/10 bg-black/25 p-5">
-                <h4 className="text-xl font-semibold text-white">Training insight</h4>
+                <h4 className="text-xl font-semibold text-white">
+                  Training insight
+                </h4>
                 <p className="mt-2 text-white/68">
-                  Use real data to coach more intentionally and close knowledge gaps faster.
+                  Use real data to coach more intentionally and close knowledge
+                  gaps faster.
                 </p>
               </div>
+
               <div className="rounded-3xl border border-white/10 bg-black/25 p-5">
-                <h4 className="text-xl font-semibold text-white">Operational patterns</h4>
+                <h4 className="text-xl font-semibold text-white">
+                  Operational patterns
+                </h4>
                 <p className="mt-2 text-white/68">
-                  Spot recurring issues, escalation points, and moments that slow the desk down.
+                  Spot recurring issues, escalation points, and moments that slow
+                  the desk down.
                 </p>
               </div>
+
               <div className="rounded-3xl border border-white/10 bg-black/25 p-5">
-                <h4 className="text-xl font-semibold text-white">Safer team culture</h4>
+                <h4 className="text-xl font-semibold text-white">
+                  Safer team culture
+                </h4>
                 <p className="mt-2 text-white/68">
-                  When people feel supported enough to ask, leaders gain a stronger team.
+                  When people feel supported enough to ask, leaders gain a
+                  stronger team.
                 </p>
               </div>
             </div>
@@ -417,11 +539,12 @@ export default function HomePage() {
                 Join the waitlist
               </p>
               <h3 className="mt-3 text-4xl font-semibold text-white">
-                Get updates as AfterHours Ops grows.
+                Support your team as hotel technology evolves.
               </h3>
               <p className="mt-5 text-lg leading-8 text-white/80">
-                Join the founder waitlist to get product updates, early access opportunities,
-                and a front-row view as we build real support for hotel teams.
+                Join the founder waitlist to get product updates, early access
+                opportunities, and a front-row view as we build real support for
+                hotel teams.
               </p>
 
               <div className="mt-6 flex flex-wrap gap-4">
