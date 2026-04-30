@@ -86,10 +86,7 @@ Your guest communication is evolving.
 
 Now there’s an opportunity to instantly support the people behind the screen.
 
-AfterHours Ops layers into your modern operation—giving front desk teams real-time decision support, department communication guidance, and after-hours coverage without adding another complicated workflow.
-</p>
 
-<p Why now?
 
 * Cloud-based hotels move faster.
 * Faster systems create faster decisions.
