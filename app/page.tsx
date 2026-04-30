@@ -78,14 +78,7 @@ export default function HomePage() {
             </h2>
 
             <p className="mt-7 max-w-2xl text-lg leading-8 text-white/75">
-              Hotels everywhere are investing in faster systems, real-time visibility, and cloud-based operations.</p>
-
-Your PMS is evolving.
-Your reporting is evolving.
-Your guest communication is evolving.
-
-Now there’s an opportunity to instantly support the people behind the screen.
-
+              Hotels everywhere are investing in faster systems, real-time visibility, and cloud-based operations.
 
 
 * Cloud-based hotels move faster.
