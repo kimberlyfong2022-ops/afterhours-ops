@@ -61,7 +61,6 @@ export default function HomePage() {
           </div>
         </div>
       </header>
-
       <section id="top" className="relative">
         <div className="mx-auto grid max-w-7xl gap-14 px-6 py-20 lg:grid-cols-[1.1fr_0.9fr] lg:px-8 lg:py-28">
           <div className="max-w-3xl">
