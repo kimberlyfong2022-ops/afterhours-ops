@@ -78,16 +78,7 @@ export default function HomePage() {
             </h2>
 
             <p className="mt-7 max-w-2xl text-lg leading-8 text-white/75">
-              Hotels everywhere are investing in faster systems, real-time visibility, and cloud-based operations.
-
-
-* Cloud-based hotels move faster.
-* Faster systems create faster decisions.
-* Faster decisions require confident teams.
-* Confident teams create stronger guest experiences.
-
-Be part of what’s next.
-
+              Be part of what’s next.
 
             </p>
 
