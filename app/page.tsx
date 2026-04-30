@@ -71,17 +71,33 @@ export default function HomePage() {
             </div>
 
             <h2 className="max-w-4xl text-5xl font-semibold leading-tight tracking-tight text-white md:text-6xl">
-              Stop late-night manager calls.
+            The industry is moving to the cloud.
               <span className="mt-2 block text-cyan-300 drop-shadow-[0_0_18px_rgba(34,211,238,0.55)]">
                 Give your team instant operational support.
               </span>
             </h2>
 
             <p className="mt-7 max-w-2xl text-lg leading-8 text-white/75">
-              Your hotel is switching to cloud-based technology. AfterHours Ops
-              gives leaders an opportunity to instantly support the people behind
-              the screen with real-time operational guidance, escalation support,
-              and clearer next steps when leadership steps away.
+              Hotels everywhere are investing in faster systems, real-time visibility, and cloud-based operations.
+
+Your PMS is evolving.
+Your reporting is evolving.
+Your guest communication is evolving.
+
+Now there’s an opportunity to instantly support the people behind the screen.
+
+AfterHours Ops layers into your modern operation—giving front desk teams real-time decision support, department communication guidance, and after-hours coverage without adding another complicated workflow.
+
+Why now?
+
+* Cloud-based hotels move faster.
+* Faster systems create faster decisions.
+* Faster decisions require confident teams.
+* Confident teams create stronger guest experiences.
+
+Be part of what’s next.
+
+Join early access and help shape a tool designed for the modern hotel.
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
