@@ -78,7 +78,7 @@ export default function HomePage() {
             </h2>
 
             <p className="mt-7 max-w-2xl text-lg leading-8 text-white/75">
-              Hotels everywhere are investing in faster systems, real-time visibility, and cloud-based operations.
+              Hotels everywhere are investing in faster systems, real-time visibility, and cloud-based operations.</p>
 
 Your PMS is evolving.
 Your reporting is evolving.
@@ -87,8 +87,9 @@ Your guest communication is evolving.
 Now there’s an opportunity to instantly support the people behind the screen.
 
 AfterHours Ops layers into your modern operation—giving front desk teams real-time decision support, department communication guidance, and after-hours coverage without adding another complicated workflow.
+</p>
 
-Why now?
+<p Why now?
 
 * Cloud-based hotels move faster.
 * Faster systems create faster decisions.
@@ -97,7 +98,7 @@ Why now?
 
 Be part of what’s next.
 
-Join early access and help shape a tool designed for the modern hotel.
+
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
