@@ -8,9 +8,9 @@ const DEMO_URL = "https://night-shift-support.replit.app/";
 // =====================================================================
 
 export const metadata = {
-title: “AfterHours Ops — Stop the 2AM Call”,
+title: "AfterHours Ops — Stop the 2AM Call",
 description:
-“Real-time operational support for hotel front desk teams and night auditors. Guided by SOPs, manager insight, and proven past resolutions.”,
+"Real-time operational support for hotel front desk teams and night auditors. Guided by SOPs, manager insight, and proven past resolutions."
 };
 
 export default function HomePage() {
@@ -19,16 +19,16 @@ return (
 <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.22),_transparent_28%),radial-gradient(circle_at_20%_30%,_rgba(59,130,246,0.18),_transparent_22%),radial-gradient(circle_at_80%_20%,_rgba(168,85,247,0.12),_transparent_18%),radial-gradient(circle_at_50%_80%,_rgba(14,165,233,0.16),_transparent_25%)]" />
 <div className="absolute inset-0 -z-10 bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.92))]" />
 
-```
+
   <Script id="mailerlite-universal" strategy="afterInteractive">
-    {`
+    {
       (function(w,d,e,u,f,l,n){
         w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments);};
         l=d.createElement(e);l.async=1;l.src=u;
         n=d.getElementsByTagName(e)[0];n.parentNode.insertBefore(l,n);
       })(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
       ml('account', '2254140');
-    `}
+    }
   </Script>
 
   {/* HEADER */}
