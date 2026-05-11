@@ -3,8 +3,8 @@ import Script from "next/script";
 // =====================================================================
 // LINKS — already wired up for you
 // =====================================================================
-const CALENDLY_URL = “https://calendly.com/kimberlyfong2022/afterhours-op”;
-const DEMO_URL = “https://night-shift-support.replit.app/”;
+const CALENDLY_URL = "https://calendly.com/kimberlyfong2022/afterhours-op";
+const DEMO_URL = "https://night-shift-support.replit.app/";
 // =====================================================================
 
 export const metadata = {
