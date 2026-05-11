@@ -232,7 +232,7 @@ export default function HomePage() {
           <div className="grid gap-0 lg:grid-cols-[0.9fr_1fr_0.9fr]">
             <div className="relative min-h-[360px] bg-slate-900">
               <Image
-                src="/founder-kimberly.png"
+                src="/founder-kimberly.PNG"
                 alt="Kimberly Fong, Founder of AfterHours Ops"
                 fill
                 className="object-cover object-center"
