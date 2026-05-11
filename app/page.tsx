@@ -271,11 +271,7 @@ return (
     <div className="rounded-[2rem] border border-white/10 bg-white/[0.04] p-8 lg:p-12">
       <div className="grid gap-10 lg:grid-cols-[0.6fr_1.4fr] lg:items-start">
         <div className="flex justify-center lg:justify-start">
-          <img
-            src="/kim.jpg"
-            alt="Kim, founder of AfterHours Ops"
-            className="h-56 w-56 rounded-full border-2 border-cyan-300/40 object-cover shadow-[0_0_40px_rgba(34,211,238,0.35)]"
-          />
+
         </div>
 
         <div>
