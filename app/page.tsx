@@ -392,7 +392,7 @@ return (
   <section id="waitlist" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
     <div className="rounded-[2rem] border border-cyan-300/20 bg-cyan-400/10 p-8 shadow-[0_0_40px_rgba(34,211,238,0.08)] lg:p-10">
       <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
-        <div>
+        <div> 
           <p className="text-sm uppercase tracking-[0.3em] text-cyan-200/80">Let’s talk</p>
           <h3 className="mt-3 text-4xl font-semibold text-white">Support your team. Strengthen your operation.</h3>
           <p className="mt-5 text-lg leading-8 text-white/80">Fifteen minutes is all it takes to see how AfterHours Ops fits at your front desk. Bring a question from your hardest shift — we’ll walk through exactly how the tool would respond.</p>
@@ -428,7 +428,5 @@ return (
     </div>
   </footer>
 </main>
-```
-
-);
+   );
 }
