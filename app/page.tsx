@@ -76,7 +76,7 @@ export default function HomePage() {
               Founder
             </a>
             <a href="#founding" className="hover:text-blue-400">
-              14-Day Founder Access
+              30 Day Founder Access
             </a>
           </nav>
 
@@ -123,7 +123,7 @@ export default function HomePage() {
                 rel="noopener noreferrer"
                 className="rounded-xl bg-blue-400 px-7 py-4 text-center text-sm font-bold text-white shadow-[0_0_30px_rgba(59,130,246,0.7)] transition hover:scale-[1.03] hover:shadow-[0_0_45px_rgba(59,130,246,1)]"
               >
-                Apply for 14-Day Founder Access →
+                Apply for 30 Day Founder Access →
               </a>
 
               <a
