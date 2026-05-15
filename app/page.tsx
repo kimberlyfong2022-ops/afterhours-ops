@@ -76,7 +76,7 @@ export default function HomePage() {
               Founder
             </a>
             <a href="#founding" className="hover:text-blue-400">
-              30 Day Founder Access
+              14-Day Founder Access
             </a>
           </nav>
 
@@ -123,7 +123,7 @@ export default function HomePage() {
                 rel="noopener noreferrer"
                 className="rounded-xl bg-blue-400 px-7 py-4 text-center text-sm font-bold text-white shadow-[0_0_30px_rgba(59,130,246,0.7)] transition hover:scale-[1.03] hover:shadow-[0_0_45px_rgba(59,130,246,1)]"
               >
-                Apply for 30 Day Founder Access →
+                Apply for 14-Day Founder Access →
               </a>
 
               <a
@@ -437,6 +437,159 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* WHAT WE'RE BUILDING */}
+      <section id="manager-view" className="mx-auto max-w-7xl px-6 py-12">
+        <div className="border-t border-blue-400/15 pt-12">
+          <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
+            <div>
+              <p className="text-sm font-bold uppercase tracking-[0.25em] text-blue-400">
+                What We're Building
+              </p>
+
+              <h3 className="mt-4 text-4xl font-black leading-tight">
+                The full operational picture.
+              </h3>
+
+              <p className="mt-5 text-lg leading-8 text-white/75">
+                Today, AfterHours helps teams solve real-time operational
+                questions. Tomorrow, leadership gains visibility into the
+                patterns behind them.
+              </p>
+            </div>
+
+            <div className="grid gap-5 md:grid-cols-2">
+              <div className="rounded-2xl border border-blue-400/20 bg-blue-400/[0.04] p-6 shadow-[0_0_22px_rgba(59,130,246,0.12)] transition hover:border-blue-400/50 hover:shadow-[0_0_34px_rgba(59,130,246,0.32)]">
+                <h4 className="text-xl font-bold text-blue-400">
+                  Question Tracking
+                </h4>
+                <p className="mt-3 leading-7 text-white/72">
+                  See what your agents are asking most often.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-blue-400/20 bg-blue-400/[0.04] p-6 shadow-[0_0_22px_rgba(59,130,246,0.12)] transition hover:border-blue-400/50 hover:shadow-[0_0_34px_rgba(59,130,246,0.32)]">
+                <h4 className="text-xl font-bold text-blue-400">
+                  Training Gaps
+                </h4>
+                <p className="mt-3 leading-7 text-white/72">
+                  Spot where SOPs, coaching, or communication need clarity.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-blue-400/20 bg-blue-400/[0.04] p-6 shadow-[0_0_22px_rgba(59,130,246,0.12)] transition hover:border-blue-400/50 hover:shadow-[0_0_34px_rgba(59,130,246,0.32)]">
+                <h4 className="text-xl font-bold text-blue-400">
+                  Escalation Patterns
+                </h4>
+                <p className="mt-3 leading-7 text-white/72">
+                  Understand when and why issues are being escalated.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-blue-400/20 bg-blue-400/[0.04] p-6 shadow-[0_0_22px_rgba(59,130,246,0.12)] transition hover:border-blue-400/50 hover:shadow-[0_0_34px_rgba(59,130,246,0.32)]">
+                <h4 className="text-xl font-bold text-blue-400">
+                  Manager Learning
+                </h4>
+                <p className="mt-3 leading-7 text-white/72">
+                  Store proven resolutions so the system improves over time.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FOUNDING ACCESS CTA */}
+      <section id="founding" className="mx-auto max-w-7xl px-6 py-14">
+        <div className="rounded-[1.75rem] border border-blue-400/30 bg-blue-400/[0.045] p-8 shadow-[0_0_50px_rgba(59,130,246,0.18)] lg:p-10">
+          <div className="grid gap-8 lg:grid-cols-[0.25fr_1fr_0.45fr] lg:items-center">
+            <div className="flex items-center gap-4">
+              <div className="text-6xl text-blue-400 drop-shadow-[0_0_22px_rgba(59,130,246,0.85)]">
+                ▣
+              </div>
+              <div>
+                <p className="text-5xl font-black">$199</p>
+                <p className="text-xl font-bold">FOUNDING RATE</p>
+              </div>
+            </div>
+
+            <div>
+              <p className="text-sm font-bold uppercase tracking-[0.25em] text-blue-400">
+                14-Day Founder Access
+              </p>
+
+              <h3 className="mt-3 text-4xl font-black">
+                Join before public launch.
+              </h3>
+
+              <p className="mt-3 text-white/72">
+                Founding hotels receive 14-day access, founder-level onboarding,
+                and locked-in pricing before the standard $299/month rate.
+              </p>
+            </div>
+
+            <a
+              href={CALENDLY_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl bg-blue-400 px-7 py-4 text-center text-sm font-bold text-white shadow-[0_0_30px_rgba(59,130,246,0.7)] transition hover:scale-[1.03] hover:shadow-[0_0_45px_rgba(59,130,246,1)]"
+            >
+              Apply for 14-Day Access →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* FOOTER */}
+      <footer className="border-t border-blue-400/10">
+        <div className="mx-auto flex max-w-7xl flex-col gap-6 px-6 py-8 md:flex-row md:items-center md:justify-between">
+          <div className="flex items-center gap-3">
+            <div className="flex items-end gap-1">
+              <div className="text-3xl text-blue-400 drop-shadow-[0_0_18px_rgba(59,130,246,0.75)]">
+                ✦
+              </div>
+              <div className="mb-3 text-xs text-blue-400 drop-shadow-[0_0_14px_rgba(59,130,246,0.75)]">
+                ✦
+              </div>
+              <div className="text-xs text-blue-400 drop-shadow-[0_0_14px_rgba(59,130,246,0.75)]">
+                ✦
+              </div>
+            </div>
+
+            <div>
+              <p className="text-xl font-bold">
+                AfterHours <span className="text-blue-400">Ops</span>
+              </p>
+              <p className="text-xs font-semibold uppercase tracking-[0.25em] text-blue-400">
+                AI for hotel operations
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap gap-6 text-sm text-white/70">
+            <a href="#features" className="hover:text-blue-400">
+              Features
+            </a>
+            <a href="#how-it-works" className="hover:text-blue-400">
+              How It Works
+            </a>
+            <a href="#demo" className="hover:text-blue-400">
+              Demo
+            </a>
+            <a href="#manager-view" className="hover:text-blue-400">
+              What We're Building
+            </a>
+            <a href="#founder" className="hover:text-blue-400">
+              Founder
+            </a>
+            <a href="#founding" className="hover:text-blue-400">
+              14-Day Founder Access
+            </a>
+          </div>
+
+          <p className="text-sm text-white/55">© 2026 AfterHours Ops</p>
+        </div>
+      </footer>
     </main>
   );
 }
