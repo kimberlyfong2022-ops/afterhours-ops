@@ -98,6 +98,73 @@ export default function HomePage() {
               >
                 Apply for Founding Access →
               </a>
+{/* FOUNDING JOURNEY */}
+
+<section
+  id="founding-journey"
+  className="mx-auto max-w-7xl px-6 py-14"
+>
+  <div className="rounded-[1.75rem] border border-cyan-300/25 bg-cyan-300/[0.045] p-8 lg:p-10">
+
+    <p className="text-sm font-bold uppercase tracking-[0.25em] text-cyan-300">
+      Founding Hotel Experience
+    </p>
+
+    <h3 className="mt-4 text-4xl font-black">
+      Help shape the future of hotel operations.
+    </h3>
+
+    <p className="mt-5 max-w-3xl text-lg leading-8 text-white/75">
+      Our founding hotels do more than use AfterHours Ops —
+      they help build it.
+      Your real operational questions, SOPs, and team feedback
+      help shape the workflows that future hotels will rely on.
+    </p>
+
+    <div className="mt-10 grid gap-6 md:grid-cols-4">
+
+      <div className="rounded-2xl border border-cyan-300/20 p-6">
+        <p className="text-cyan-300 font-bold">Week 1</p>
+        <h4 className="mt-3 text-xl font-bold">
+          Discovery
+        </h4>
+        <p className="mt-3 text-white/70">
+          We learn your operation, team structure, and SOPs.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-cyan-300/20 p-6">
+        <p className="text-cyan-300 font-bold">Week 2</p>
+        <h4 className="mt-3 text-xl font-bold">
+          Activation
+        </h4>
+        <p className="mt-3 text-white/70">
+          Your team begins using real-time guidance during live shifts.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-cyan-300/20 p-6">
+        <p className="text-cyan-300 font-bold">Week 3</p>
+        <h4 className="mt-3 text-xl font-bold">
+          Refinement
+        </h4>
+        <p className="mt-3 text-white/70">
+          We review patterns, edge cases, and training opportunities.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-cyan-300/20 p-6">
+        <p className="text-cyan-300 font-bold">Week 4+</p>
+        <h4 className="mt-3 text-xl font-bold">
+          Scale
+        </h4>
+        <p className="mt-3 text-white/70">
+          Your workflows help shape the platform for future hotels.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
               <a
                 href="#demo"
                 className="rounded-xl border border-cyan-300/40 px-7 py-4 text-center text-sm font-bold text-white transition hover:bg-cyan-300/10"
