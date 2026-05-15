@@ -52,9 +52,9 @@ export default function HomePage() {
             <a href="#features" className="hover:text-cyan-300">Features</a>
             <a href="#how-it-works" className="hover:text-cyan-300">How It Works</a>
             <a href="#demo" className="hover:text-cyan-300">Demo</a>
-            <a href="#manager-view" className="hover:text-cyan-300">Manager View</a>
+            <a href="#manager-view" className="hover:text-cyan-300">What We're Building</a>
             <a href="#founder" className="hover:text-cyan-300">Founder</a>
-            <a href="#pilot" className="hover:text-cyan-300">Pricing</a>
+            <a href="#founding" className="hover:text-cyan-300">Founding Access</a>
           </nav>
 
           <a
@@ -63,7 +63,7 @@ export default function HomePage() {
             rel="noopener noreferrer"
             className="rounded-xl bg-cyan-300 px-5 py-3 text-sm font-bold text-black shadow-[0_0_24px_rgba(34,211,238,0.45)] transition hover:scale-[1.03]"
           >
-            Book a Walkthrough
+            Apply for Founding Access
           </a>
         </div>
       </header>
@@ -72,6 +72,10 @@ export default function HomePage() {
       <section id="top" className="mx-auto max-w-7xl px-6 py-14 lg:py-20">
         <div className="grid items-center gap-14 lg:grid-cols-2">
           <div>
+            <p className="mb-5 text-sm font-bold uppercase tracking-[0.3em] text-cyan-300">
+              Founding Hotel Access Now Open
+            </p>
+
             <h2 className="text-6xl font-black leading-[0.95] tracking-tight md:text-7xl lg:text-8xl">
               <span className="block text-cyan-300 drop-shadow-[0_0_30px_rgba(34,211,238,0.65)]">
                 STOP
@@ -81,8 +85,8 @@ export default function HomePage() {
 
             <p className="mt-7 max-w-xl text-lg leading-8 text-white/82">
               Real-time operational support for hotel front desk teams and night
-              auditors — guided by SOPs, manager insight, and proven past
-              resolutions.
+              auditors — built to help teams make confident decisions after hours
+              using SOPs, manager insight, and proven past resolutions.
             </p>
 
             <div className="mt-9 flex flex-col gap-4 sm:flex-row">
@@ -92,7 +96,7 @@ export default function HomePage() {
                 rel="noopener noreferrer"
                 className="rounded-xl bg-cyan-300 px-7 py-4 text-center text-sm font-bold text-black shadow-[0_0_28px_rgba(34,211,238,0.45)] transition hover:scale-[1.03]"
               >
-                Book a 15-Min Walkthrough →
+                Apply for Founding Access →
               </a>
               <a
                 href="#demo"
@@ -103,7 +107,7 @@ export default function HomePage() {
             </div>
 
             <p className="mt-6 text-sm text-white/65">
-              ✦ No commitment. 15 minutes. Built by a former front desk agent.
+              ✦ Onboarding our first founding hotel partners. Limited early access.
             </p>
           </div>
 
@@ -130,7 +134,7 @@ export default function HomePage() {
             <div className="flex gap-5">
               <div className="text-5xl text-cyan-300">◷</div>
               <div>
-                <h3 className="text-2xl font-bold">24/7</h3>
+                <h3 className="text-2xl font-bold">After-Hours Support</h3>
                 <p className="mt-2 text-sm leading-6 text-white/70">
                   Operational guidance when the desk needs answers fast.
                 </p>
@@ -160,19 +164,19 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* DEMO / PLATFORM ACTION */}
+      {/* DEMO */}
       <section id="demo" className="mx-auto max-w-7xl px-6 py-12">
         <div className="grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.25em] text-cyan-300">
-              Experience AfterHours Ops
+              Live Demo
             </p>
             <h3 className="mt-4 text-4xl font-black leading-tight">
               See the platform <br /> in action
             </h3>
             <p className="mt-5 max-w-md text-lg leading-8 text-white/78">
-              Try real scenarios that front desk teams face every day. Get
-              instant, SOP-backed guidance.
+              Try real front desk and night audit scenarios. The demo shows the
+              core guidance experience we are building with founding hotels.
             </p>
             <a
               href={DEMO_URL}
@@ -252,7 +256,13 @@ export default function HomePage() {
                 office manager. I saw what happens after training ends.
               </p>
               <p className="mt-4 text-lg leading-8 text-white/78">
-                AfterHours Ops was created so no agent has to guess at 2AM.
+                AfterHours Ops was built inside real hotel operations — from night
+                audit breakdowns, guest escalations, and the pressure leaders face
+                every day.
+              </p>
+              <p className="mt-4 text-lg leading-8 text-white/78">
+                We are now onboarding our first founding hotel partners to shape
+                what operational AI becomes in hospitality.
               </p>
               <div className="mt-7">
                 <p className="font-bold">— Kimberly Fong</p>
@@ -299,20 +309,21 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* MANAGER VIEW — TEXT ONLY, NO DASHBOARD VISUAL */}
+      {/* WHAT WE'RE BUILDING */}
       <section id="manager-view" className="mx-auto max-w-7xl px-6 py-12">
         <div className="border-t border-cyan-300/15 pt-12">
           <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.25em] text-cyan-300">
-                Manager View
+                What We're Building
               </p>
               <h3 className="mt-4 text-4xl font-black leading-tight">
-                Turn every question into operational intelligence.
+                The full operational picture.
               </h3>
               <p className="mt-5 text-lg leading-8 text-white/75">
-                Identify trends, uncover training gaps, and empower your team
-                with real insight.
+                Today, AfterHours helps teams solve real-time operational
+                questions. Tomorrow, leadership gains visibility into the
+                patterns behind them.
               </p>
             </div>
 
@@ -349,27 +360,28 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* PILOT CTA */}
-      <section id="pilot" className="mx-auto max-w-7xl px-6 py-14">
+      {/* FOUNDING ACCESS CTA */}
+      <section id="founding" className="mx-auto max-w-7xl px-6 py-14">
         <div className="rounded-[1.75rem] border border-cyan-300/25 bg-cyan-300/[0.045] p-8 lg:p-10">
           <div className="grid gap-8 lg:grid-cols-[0.25fr_1fr_0.45fr] lg:items-center">
             <div className="flex items-center gap-4">
               <div className="text-6xl text-cyan-300">▣</div>
               <div>
-                <p className="text-5xl font-black">30</p>
-                <p className="text-xl font-bold">DAYS</p>
+                <p className="text-5xl font-black">$199</p>
+                <p className="text-xl font-bold">FOUNDING RATE</p>
               </div>
             </div>
 
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.25em] text-cyan-300">
-                Ready to see the difference?
+                Founding Hotel Cohort
               </p>
               <h3 className="mt-3 text-4xl font-black">
-                Start Your Free 30-Day Pilot
+                Join before public launch.
               </h3>
               <p className="mt-3 text-white/72">
-                No risk. No commitment. Just real support for your team.
+                Founding hotels receive early access, founder-level onboarding,
+                and locked-in pricing before the standard $299/month rate.
               </p>
             </div>
 
@@ -379,7 +391,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="rounded-xl bg-cyan-300 px-7 py-4 text-center text-sm font-bold text-black shadow-[0_0_24px_rgba(34,211,238,0.35)] transition hover:scale-[1.03]"
             >
-              Start My Free Pilot →
+              Apply for Founding Access →
             </a>
           </div>
         </div>
@@ -404,9 +416,9 @@ export default function HomePage() {
             <a href="#features" className="hover:text-cyan-300">Features</a>
             <a href="#how-it-works" className="hover:text-cyan-300">How It Works</a>
             <a href="#demo" className="hover:text-cyan-300">Demo</a>
-            <a href="#manager-view" className="hover:text-cyan-300">Manager View</a>
+            <a href="#manager-view" className="hover:text-cyan-300">What We're Building</a>
             <a href="#founder" className="hover:text-cyan-300">Founder</a>
-            <a href="#pilot" className="hover:text-cyan-300">Pricing</a>
+            <a href="#founding" className="hover:text-cyan-300">Founding Access</a>
           </div>
 
           <p className="text-sm text-white/55">© 2026 AfterHours Ops</p>
