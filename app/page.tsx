@@ -76,7 +76,7 @@ export default function HomePage() {
               Founder
             </a>
             <a href="#founding" className="hover:text-blue-400">
-              14-Day Founder Access
+              30 Day Founder Access
             </a>
           </nav>
 
@@ -123,7 +123,7 @@ export default function HomePage() {
                 rel="noopener noreferrer"
                 className="rounded-xl bg-blue-400 px-7 py-4 text-center text-sm font-bold text-white shadow-[0_0_30px_rgba(59,130,246,0.7)] transition hover:scale-[1.03] hover:shadow-[0_0_45px_rgba(59,130,246,1)]"
               >
-                Apply for 14-Day Founder Access →
+                Apply for 30 Day Founder Access →
               </a>
 
               <a
@@ -515,7 +515,7 @@ export default function HomePage() {
 
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.25em] text-blue-400">
-                14-Day Founder Access
+                30 Day Founder Access
               </p>
 
               <h3 className="mt-3 text-4xl font-black">
@@ -523,7 +523,7 @@ export default function HomePage() {
               </h3>
 
               <p className="mt-3 text-white/72">
-                Founding hotels receive 14-day access, founder-level onboarding,
+                Founding hotels receive 30 day access, founder-level onboarding,
                 and locked-in pricing before the standard $299/month rate.
               </p>
             </div>
@@ -534,7 +534,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="rounded-xl bg-blue-400 px-7 py-4 text-center text-sm font-bold text-white shadow-[0_0_30px_rgba(59,130,246,0.7)] transition hover:scale-[1.03] hover:shadow-[0_0_45px_rgba(59,130,246,1)]"
             >
-              Apply for 14-Day Access →
+              Apply for 30 Day Access →
             </a>
           </div>
         </div>
@@ -583,7 +583,7 @@ export default function HomePage() {
               Founder
             </a>
             <a href="#founding" className="hover:text-blue-400">
-              14-Day Founder Access
+              30 Day Founder Access
             </a>
           </div>
 
