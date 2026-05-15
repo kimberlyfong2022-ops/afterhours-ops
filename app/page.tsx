@@ -131,19 +131,27 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="relative">
-            <div className="absolute -inset-8 rounded-[2rem] bg-cyan-400/15 blur-3xl" />
+          {/* RIGHT SIDE — FLOATING STAR */}
+          <div className="relative flex min-h-[420px] items-center justify-center">
+            <div className="absolute h-80 w-80 animate-pulse rounded-full bg-cyan-400/10 blur-3xl" />
 
-            <div className="relative overflow-hidden rounded-[2rem] border border-cyan-300/30 bg-slate-950 shadow-[0_0_60px_rgba(34,211,238,0.25)]">
-              <div className="flex h-[420px] items-center justify-center bg-[radial-gradient(circle_at_center,rgba(34,211,238,0.2),transparent_45%),linear-gradient(135deg,#03111f,#020617)]">
-                <div className="rounded-2xl border border-cyan-300/40 bg-black/35 px-12 py-10 text-center shadow-[0_0_45px_rgba(34,211,238,0.45)]">
-                  <p className="text-5xl font-bold tracking-wide text-cyan-300 drop-shadow-[0_0_25px_rgba(34,211,238,1)]">
-                    AFTERHOURS
-                  </p>
-                  <p className="mt-2 text-5xl font-bold tracking-wide text-cyan-300 drop-shadow-[0_0_25px_rgba(34,211,238,1)]">
-                    OPS
-                  </p>
-                </div>
+            <div className="relative flex flex-col items-center text-center">
+              <div className="animate-pulse text-[140px] text-cyan-300 drop-shadow-[0_0_55px_rgba(34,211,238,1)]">
+                ✦
+              </div>
+
+              <div className="mt-8 max-w-md rounded-[2rem] border border-cyan-300/25 bg-cyan-300/[0.04] px-8 py-7 shadow-[0_0_40px_rgba(34,211,238,0.18)] backdrop-blur-xl">
+                <p className="text-xl font-bold tracking-wide text-cyan-300">
+                  When the star appears…
+                </p>
+
+                <p className="mt-3 text-lg text-white/85">
+                  your team isn’t alone.
+                </p>
+
+                <p className="mt-2 text-xl font-bold text-cyan-300">
+                  Every shift is empowered.
+                </p>
               </div>
             </div>
           </div>
@@ -410,150 +418,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* WHAT WE'RE BUILDING */}
-      <section id="manager-view" className="mx-auto max-w-7xl px-6 py-12">
-        <div className="border-t border-cyan-300/15 pt-12">
-          <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
-            <div>
-              <p className="text-sm font-bold uppercase tracking-[0.25em] text-cyan-300">
-                What We're Building
-              </p>
-
-              <h3 className="mt-4 text-4xl font-black leading-tight">
-                The full operational picture.
-              </h3>
-
-              <p className="mt-5 text-lg leading-8 text-white/75">
-                Today, AfterHours helps teams solve real-time operational
-                questions. Tomorrow, leadership gains visibility into the
-                patterns behind them.
-              </p>
-            </div>
-
-            <div className="grid gap-5 md:grid-cols-2">
-              <div className="rounded-2xl border border-cyan-300/20 bg-cyan-300/[0.04] p-6 shadow-[0_0_22px_rgba(34,211,238,0.12)] transition hover:border-cyan-300/50 hover:shadow-[0_0_34px_rgba(34,211,238,0.32)]">
-                <h4 className="text-xl font-bold text-cyan-300">
-                  Question Tracking
-                </h4>
-                <p className="mt-3 leading-7 text-white/72">
-                  See what your agents are asking most often.
-                </p>
-              </div>
-
-              <div className="rounded-2xl border border-cyan-300/20 bg-cyan-300/[0.04] p-6 shadow-[0_0_22px_rgba(34,211,238,0.12)] transition hover:border-cyan-300/50 hover:shadow-[0_0_34px_rgba(34,211,238,0.32)]">
-                <h4 className="text-xl font-bold text-cyan-300">
-                  Training Gaps
-                </h4>
-                <p className="mt-3 leading-7 text-white/72">
-                  Spot where SOPs, coaching, or communication need clarity.
-                </p>
-              </div>
-
-              <div className="rounded-2xl border border-cyan-300/20 bg-cyan-300/[0.04] p-6 shadow-[0_0_22px_rgba(34,211,238,0.12)] transition hover:border-cyan-300/50 hover:shadow-[0_0_34px_rgba(34,211,238,0.32)]">
-                <h4 className="text-xl font-bold text-cyan-300">
-                  Escalation Patterns
-                </h4>
-                <p className="mt-3 leading-7 text-white/72">
-                  Understand when and why issues are being escalated.
-                </p>
-              </div>
-
-              <div className="rounded-2xl border border-cyan-300/20 bg-cyan-300/[0.04] p-6 shadow-[0_0_22px_rgba(34,211,238,0.12)] transition hover:border-cyan-300/50 hover:shadow-[0_0_34px_rgba(34,211,238,0.32)]">
-                <h4 className="text-xl font-bold text-cyan-300">
-                  Manager Learning
-                </h4>
-                <p className="mt-3 leading-7 text-white/72">
-                  Store proven resolutions so the system improves over time.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FOUNDING ACCESS CTA */}
-      <section id="founding" className="mx-auto max-w-7xl px-6 py-14">
-        <div className="rounded-[1.75rem] border border-cyan-300/30 bg-cyan-300/[0.045] p-8 shadow-[0_0_50px_rgba(34,211,238,0.18)] lg:p-10">
-          <div className="grid gap-8 lg:grid-cols-[0.25fr_1fr_0.45fr] lg:items-center">
-            <div className="flex items-center gap-4">
-              <div className="text-6xl text-cyan-300 drop-shadow-[0_0_22px_rgba(34,211,238,0.85)]">
-                ▣
-              </div>
-              <div>
-                <p className="text-5xl font-black">$199</p>
-                <p className="text-xl font-bold">FOUNDING RATE</p>
-              </div>
-            </div>
-
-            <div>
-              <p className="text-sm font-bold uppercase tracking-[0.25em] text-cyan-300">
-                14-Day Founder Access
-              </p>
-
-              <h3 className="mt-3 text-4xl font-black">
-                Join before public launch.
-              </h3>
-
-              <p className="mt-3 text-white/72">
-                Founding hotels receive 14-day access, founder-level onboarding,
-                and locked-in pricing before the standard $299/month rate.
-              </p>
-            </div>
-
-            <a
-              href={CALENDLY_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-xl bg-cyan-300 px-7 py-4 text-center text-sm font-bold text-black shadow-[0_0_30px_rgba(34,211,238,0.7)] transition hover:scale-[1.03] hover:shadow-[0_0_45px_rgba(34,211,238,1)]"
-            >
-              Apply for 14-Day Access →
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* FOOTER */}
-      <footer className="border-t border-cyan-300/10">
-        <div className="mx-auto flex max-w-7xl flex-col gap-6 px-6 py-8 md:flex-row md:items-center md:justify-between">
-          <div className="flex items-center gap-3">
-            <div className="text-3xl text-cyan-300 drop-shadow-[0_0_18px_rgba(34,211,238,0.75)]">
-              ✦
-            </div>
-            <div>
-              <p className="text-xl font-bold">
-                AfterHours <span className="text-cyan-300">Ops</span>
-              </p>
-              <p className="text-xs font-semibold uppercase tracking-[0.25em] text-cyan-300">
-                AI for hotel operations
-              </p>
-            </div>
-          </div>
-
-          <div className="flex flex-wrap gap-6 text-sm text-white/70">
-            <a href="#features" className="hover:text-cyan-300">
-              Features
-            </a>
-            <a href="#how-it-works" className="hover:text-cyan-300">
-              How It Works
-            </a>
-            <a href="#demo" className="hover:text-cyan-300">
-              Demo
-            </a>
-            <a href="#manager-view" className="hover:text-cyan-300">
-              What We're Building
-            </a>
-            <a href="#founder" className="hover:text-cyan-300">
-              Founder
-            </a>
-            <a href="#founding" className="hover:text-cyan-300">
-              14-Day Founder Access
-            </a>
-          </div>
-
-          <p className="text-sm text-white/55">© 2026 AfterHours Ops</p>
-        </div>
-      </footer>
     </main>
   );
 }
