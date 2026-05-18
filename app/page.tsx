@@ -5,7 +5,7 @@ const CALENDLY_URL = "https://calendly.com/kimberlyfong2022/afterhours-op";
 const DEMO_URL = "https://night-shift-support.replit.app/";
 
 export const metadata = {
-  title: "AfterHours Ops — Stop the 2AM Call",
+  title: "AfterHours Ops — Turn Your Agents Into Leaders",
   description:
     "Real-time operational support for hotel front desk teams and night auditors.",
 };
