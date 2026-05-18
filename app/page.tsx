@@ -104,9 +104,9 @@ export default function HomePage() {
 
             <h2 className="text-6xl font-black leading-[0.95] tracking-tight md:text-7xl lg:text-8xl">
               <span className="block text-blue-400 drop-shadow-[0_0_40px_rgba(59,130,246,0.9)]">
-                STOP
+                TURN
               </span>
-              <span className="block">THE 2AM CALL.</span>
+              <span className="block">Your Agents Into Leaders.</span>
             </h2>
 
             <p className="mt-7 max-w-xl text-lg leading-8 text-white/82">
